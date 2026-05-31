@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "terraform": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "ghcr.io/anthropics/mcp-terraform:latest"
+      ]
+    }
+  }
+}

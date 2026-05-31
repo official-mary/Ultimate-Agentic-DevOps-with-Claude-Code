@@ -1,0 +1,16 @@
+{
+  "env": {
+    "AWS_PROFILE": "default",
+    "AWS_REGION": "eu-north-1"
+  },
+  "enabledMcpjsonServers": [
+    "terraform",
+    "aws"
+  ],
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(open:*)"
+    ]
+  }
+}

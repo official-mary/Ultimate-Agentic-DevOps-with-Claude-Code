@@ -1,0 +1,9 @@
+# Example Terraform variable values for this project.
+# Copy this file to terraform.tfvars and update the values for your deployment.
+
+region       = "eu-north-1"
+project_name = "portfolio-site"
+environment  = "production"
+bucket_name  = "portfolio-site-ogbonna-nwannekamary-production"
+# Set domain_name to a custom domain if you are using one, or leave as an empty string.
+domain_name  = ""
